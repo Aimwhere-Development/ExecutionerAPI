@@ -1,0 +1,30 @@
+name: "Build and Release"
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "src/**"
+
+jobs:
+  release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Build"
+        uses: "s4u/setup-maven-action@v1.5.0"
+        with:
+          java-version: 8
+      - name: "Build with maven"
+        run: "mvn clean install"
+      
+      - name: "Upload Release"
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Latest Release"
+          files: "target/AnticheatAPI*SNAPSHOT.jar"
