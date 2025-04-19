@@ -10,6 +10,8 @@ Anticheat API by Aperture Development, current use case - Executioner Anticheat.
 - `AttemptedCrashEvent` - Called when Executioner detects a player trying to crash the server.
 - `MitigationEvent` - Called when a player is mitigated by Executioner (soon).
 - `BlacklistEvent` - Called when Executioner detects a player in the global Blacklist (soon).
+- `SpawnAurabotEvent` - Called when Executioner spawns a killaura detection bot on a player.
+- `DespawnAurabotEvent` - Called when Executioner despawns a current killaura detection bot on a player.
 
 ## Installation
 #### Maven:
