@@ -31,7 +31,7 @@ public class ExampleAPI extends JavaPlugin implements Listener {
     @Override
     public void onEvent(Event event) {
         if(event instanceof FlagEvent) {
-            // flag things
+            //System.out.println("Player " + ((FlagEvent) event).getPlayer().getPlayerName() + " has flagged " + ((FlagEvent) event).getCheck());
         } else if(event instanceof PunishEvent) {
             // punish things
         } else if (event instanceof GhostBlockEvent) {

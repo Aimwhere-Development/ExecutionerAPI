@@ -1,5 +1,6 @@
 package me.aimwhere.executionerapi.event.impl;
 
+import lombok.Setter;
 import me.aimwhere.executionerapi.data.PlayerProfile;
 import me.aimwhere.executionerapi.event.Event;
 import lombok.AllArgsConstructor;
@@ -11,6 +12,7 @@ import lombok.Getter;
  * @version 3
  */
 @Getter
+@Setter
 @AllArgsConstructor
 public final class FlagEvent extends Event {
     //player who flagged
