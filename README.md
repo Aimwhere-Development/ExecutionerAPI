@@ -22,9 +22,9 @@ Anticheat API by Aperture Development, current use case - Executioner Anticheat.
 </repository>
 
 <dependency>
-    <groupId>me.aimwhere.executionerapi</groupId>
-    <artifactId>AnticheatAPI</artifactId>
-    <version>whatever version is latest</version>
+    <groupId>me.aimwhere</groupId>
+    <artifactId>ExecutionerAPI</artifactId>
+    <version>2.0.0</version>
     <scope>compile</scope>
 </dependency>
 ```
