@@ -3,6 +3,7 @@ me\aimwhere\executionerapi\event\impl\GhostBlockEvent.class
 me\aimwhere\executionerapi\shit\CheckType.class
 me\aimwhere\executionerapi\event\ExecutionerListener.class
 me\aimwhere\executionerapi\event\impl\PlayerLeaveEvent.class
+me\aimwhere\executionerapi\Plugin.class
 me\aimwhere\executionerapi\event\impl\AttemptedCrashEvent.class
 me\aimwhere\executionerapi\ExecutionerAPI.class
 me\aimwhere\executionerapi\event\EventPriority.class

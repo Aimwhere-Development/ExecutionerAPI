@@ -1,4 +1,4 @@
 name: AnticheatAPI
-main: me.aimwhere.executionerapi.example.ExampleAPI
-version: 1.0.2
+main: me.aimwhere.executionerapi.Plugin
+version: 2
 api-version: 1.20

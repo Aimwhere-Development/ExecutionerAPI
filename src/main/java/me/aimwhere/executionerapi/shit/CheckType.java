@@ -24,6 +24,7 @@ public enum CheckType {
     SIMULATION("Simulation"),
     TIMER("Timer"),
     VELOCITY("Velocity"),
+    SCAFFOLD("Scaffold"),
     OTHER("Other");
 
     private final String value;
