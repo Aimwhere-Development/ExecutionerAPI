@@ -9,6 +9,7 @@ me\aimwhere\executionerapi\ExecutionerAPI.class
 me\aimwhere\executionerapi\event\EventPriority.class
 me\aimwhere\executionerapi\event\ExecutionerEvent.class
 me\aimwhere\executionerapi\event\EventHandler.class
+me\aimwhere\executionerapi\event\impl\PlayerKickEvent.class
 me\aimwhere\executionerapi\event\impl\AurabotSpawnEvent.class
 me\aimwhere\executionerapi\event\impl\PlayerJoinEvent.class
 me\aimwhere\executionerapi\player\PlayerProfile.class

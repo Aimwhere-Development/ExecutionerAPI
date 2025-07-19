@@ -15,6 +15,8 @@ public enum CheckType {
     HEURISTIC("Heuristic"),
     HITBOX("Hitbox"),
     INVENTORY("Inventory"),
+    REFILL("Refill"),
+    THROWPOTION("Throw Pot"),
     MISC("Misc"),
     NEURAL("Neural"),
     MOVE("Move"),

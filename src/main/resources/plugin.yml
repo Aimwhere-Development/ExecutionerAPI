@@ -1,4 +1,4 @@
-name: AnticheatAPI
+name: ExecutionerAPI
 main: me.aimwhere.executionerapi.Plugin
-version: 2
+version: 2.0.4
 api-version: 1.20
